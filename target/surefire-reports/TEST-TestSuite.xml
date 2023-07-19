@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="1.914" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.10+5-MTS"/>
+    <property name="sun.boot.library.path" value="/Users/batoolalnemreen/Library/Java/JavaVirtualMachines/azul-15.0.10/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/batoolalnemreen/Documents/AlmosaferAssignment-BatoolAlnemreen"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="JO"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/batoolalnemreen/Documents/AlmosaferAssignment-BatoolAlnemreen"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="15.0.10+5-MTS"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/dt/v1svhspn0699w0kysrn_mm780000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/batoolalnemreen/Downloads/apache-maven-3.8.8/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/batoolalnemreen/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/batoolalnemreen/Downloads/apache-maven-3.8.8/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="13.4"/>
+    <property name="library.jansi.path" value="/Users/batoolalnemreen/Downloads/apache-maven-3.8.8/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/batoolalnemreen"/>
+    <property name="user.timezone" value="Asia/Amman"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="batoolalnemreen"/>
+    <property name="java.class.path" value="/Users/batoolalnemreen/Downloads/apache-maven-3.8.8/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.home" value="/Users/batoolalnemreen/Library/Java/JavaVirtualMachines/azul-15.0.10/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.10"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="maven.home" value="/Users/batoolalnemreen/Downloads/apache-maven-3.8.8"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Zulu15.46+17-CA"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="GetCurrenciesListTest" name="testPromotionsAPI" time="1.914">
+    <failure message="Schema to use cannot be null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Schema to use cannot be null
+	at io.restassured.module.jsv.JsonSchemaValidator.validateSchemaIsNotNull(JsonSchemaValidator.java:270)
+	at io.restassured.module.jsv.JsonSchemaValidator.access$300(JsonSchemaValidator.java:75)
+	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:281)
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:166)
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath(JsonSchemaValidator.java:117)
+	at Common.Helper.validateJSONSchema(Helper.java:11)
+	at GetCurrenciesListTest.testPromotionsAPI(GetCurrenciesListTest.java:12)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@2b80d80f
+{
+    &quot;base&quot;: {
+        &quot;symbol&quot;: &quot;SAR&quot;,
+        &quot;name&quot;: &quot;Saudi Riyal&quot;,
+        &quot;name_ar&quot;: &quot;ريال سعودي&quot;,
+        &quot;symbol_native&quot;: &quot;ر.س.‏&quot;,
+        &quot;decimal_digits&quot;: 2,
+        &quot;rounding&quot;: 0,
+        &quot;code&quot;: &quot;SAR&quot;,
+        &quot;name_plural&quot;: &quot;Saudi riyals&quot;
+    },
+    &quot;equivalent&quot;: [
+        {
+            &quot;symbol&quot;: &quot;SAR&quot;,
+            &quot;name&quot;: &quot;Saudi Riyal&quot;,
+            &quot;name_ar&quot;: &quot;ريال سعودي&quot;,
+            &quot;symbol_native&quot;: &quot;ر.س.‏&quot;,
+            &quot;decimal_digits&quot;: 2,
+            &quot;rounding&quot;: 0,
+            &quot;code&quot;: &quot;SAR&quot;,
+            &quot;name_plural&quot;: &quot;Saudi riyals&quot;,
+            &quot;rate&quot;: 1,
+            &quot;Rate&quot;: 1,
+            &quot;date&quot;: &quot;2023-07-18 08:49:16&quot;
+        },
+        {
+            &quot;symbol&quot;: &quot;AED&quot;,
+            &quot;name&quot;: &quot;United Arab Emirates Dirham&quot;,
+            &quot;name_ar&quot;: &quot;درهم اماراتي&quot;,
+            &quot;symbol_native&quot;: &quot;د.إ.‏&quot;,
+            &quot;decimal_digits&quot;: 2,
+            &quot;rounding&quot;: 0,
+            &quot;code&quot;: &quot;AED&quot;,
+            &quot;name_plural&quot;: &quot;UAE dirhams&quot;,
+            &quot;rate&quot;: 0.979033,
+            &quot;Rate&quot;: 0.979033,
+            &quot;date&quot;: &quot;2023-07-18 08:50:03&quot;
+        },
+        {
+            &quot;symbol&quot;: &quot;QAR&quot;,
+            &quot;name&quot;: &quot;Qatari Rial&quot;,
+            &quot;name_ar&quot;: &quot;ريال قطري&quot;,
+            &quot;symbol_native&quot;: &quot;ر.ق.‏&quot;,
+            &quot;decimal_digits&quot;: 2,
+            &quot;rounding&quot;: 0,
+            &quot;code&quot;: &quot;QAR&quot;,
+            &quot;name_plural&quot;: &quot;Qatari rials&quot;,
+            &quot;rate&quot;: 0.970502,
+            &quot;Rate&quot;: 0.970502,
+            &quot;date&quot;: &quot;2023-07-18 08:51:03&quot;
+        },
+        {
+            &quot;symbol&quot;: &quot;KWD&quot;,
+            &quot;name&quot;: &quot;Kuwaiti Dinar&quot;,
+            &quot;name_ar&quot;: &quot;دينار كويتي&quot;,
+            &quot;symbol_native&quot;: &quot;د.ك.‏&quot;,
+            &quot;decimal_digits&quot;: 3,
+            &quot;rounding&quot;: 0,
+            &quot;code&quot;: &quot;KWD&quot;,
+            &quot;name_plural&quot;: &quot;Kuwaiti dinars&quot;,
+            &quot;rate&quot;: 0.081635,
+            &quot;Rate&quot;: 0.081635,
+            &quot;date&quot;: &quot;2023-07-18 08:50:03&quot;
+        },
+        {
+            &quot;symbol&quot;: &quot;BHD&quot;,
+            &quot;name&quot;: &quot;Bahraini Dinar&quot;,
+            &quot;name_ar&quot;: &quot;دينار بحريني&quot;,
+            &quot;symbol_native&quot;: &quot;د.ب.‏&quot;,
+            &quot;decimal_digits&quot;: 3,
+            &quot;rounding&quot;: 0,
+            &quot;code&quot;: &quot;BHD&quot;,
+            &quot;name_plural&quot;: &quot;Bahraini dinars&quot;,
+            &quot;rate&quot;: 0.100494,
+            &quot;Rate&quot;: 0.100494,
+            &quot;date&quot;: &quot;2023-07-18 08:50:03&quot;
+        },
+        {
+            &quot;symbol&quot;: &quot;$&quot;,
+            &quot;name&quot;: &quot;US Dollar&quot;,
+            &quot;name_ar&quot;: &quot;دولار أمريكي&quot;,
+            &quot;symbol_native&quot;: &quot;$&quot;,
+            &quot;decimal_digits&quot;: 2,
+            &quot;rounding&quot;: 0,
+            &quot;code&quot;: &quot;USD&quot;,
+            &quot;name_plural&quot;: &quot;US dollars&quot;,
+            &quot;rate&quot;: 0.266545,
+            &quot;Rate&quot;: 0.266545,
+            &quot;date&quot;: &quot;2023-07-18 08:51:03&quot;
+        },
+        {
+            &quot;symbol&quot;: &quot;€&quot;,
+            &quot;name&quot;: &quot;Euro&quot;,
+            &quot;name_ar&quot;: &quot;يورو&quot;,
+            &quot;symbol_native&quot;: &quot;€&quot;,
+            &quot;decimal_digits&quot;: 2,
+            &quot;rounding&quot;: 0,
+            &quot;code&quot;: &quot;EUR&quot;,
+            &quot;name_plural&quot;: &quot;euros&quot;,
+            &quot;rate&quot;: 0.237292,
+            &quot;Rate&quot;: 0.237292,
+            &quot;date&quot;: &quot;2023-07-18 08:51:03&quot;
+        },
+        {
+            &quot;symbol&quot;: &quot;£&quot;,
+            &quot;name&quot;: &quot;British Pound Sterling&quot;,
+            &quot;name_ar&quot;: &quot;الجنيه الاسترليني&quot;,
+            &quot;symbol_native&quot;: &quot;£&quot;,
+            &quot;decimal_digits&quot;: 2,
+            &quot;rounding&quot;: 0,
+            &quot;code&quot;: &quot;GBP&quot;,
+            &quot;name_plural&quot;: &quot;British pounds sterling&quot;,
+            &quot;rate&quot;: 0.203791,
+            &quot;Rate&quot;: 0.203791,
+            &quot;date&quot;: &quot;2023-07-18 08:51:03&quot;
+        },
+        {
+            &quot;symbol&quot;: &quot;EGP&quot;,
+            &quot;name&quot;: &quot;Egyptian Pound&quot;,
+            &quot;name_ar&quot;: &quot;جنيه مصري&quot;,
+            &quot;symbol_native&quot;: &quot;ج.م.‏&quot;,
+            &quot;decimal_digits&quot;: 2,
+            &quot;rounding&quot;: 0,
+            &quot;code&quot;: &quot;EGP&quot;,
+            &quot;name_plural&quot;: &quot;Egyptian pounds&quot;,
+            &quot;rate&quot;: 8.23622,
+            &quot;Rate&quot;: 8.23622,
+            &quot;date&quot;: &quot;2023-07-18 09:29:03&quot;
+        },
+        {
+            &quot;symbol&quot;: &quot;₹&quot;,
+            &quot;name&quot;: &quot;Indian Rupee&quot;,
+            &quot;name_ar&quot;: &quot;روبية هندية&quot;,
+            &quot;symbol_native&quot;: &quot;₹&quot;,
+            &quot;decimal_digits&quot;: 2,
+            &quot;rounding&quot;: 0,
+            &quot;code&quot;: &quot;INR&quot;,
+            &quot;name_plural&quot;: &quot;Indian rupees&quot;,
+            &quot;rate&quot;: 21.864214,
+            &quot;Rate&quot;: 21.864214,
+            &quot;date&quot;: &quot;2023-07-18 09:32:03&quot;
+        },
+        {
+            &quot;symbol&quot;: &quot;OMR&quot;,
+            &quot;name&quot;: &quot;Omani Rial&quot;,
+            &quot;name_ar&quot;: &quot;ريال عماني&quot;,
+            &quot;symbol_native&quot;: &quot;ر.ع.‏&quot;,
+            &quot;decimal_digits&quot;: 3,
+            &quot;rounding&quot;: 0,
+            &quot;code&quot;: &quot;OMR&quot;,
+            &quot;name_plural&quot;: &quot;Omani rials&quot;,
+            &quot;rate&quot;: 0.102471,
+            &quot;Rate&quot;: 0.102471,
+            &quot;date&quot;: &quot;2023-07-17 10:16:03&quot;
+        }
+    ],
+    &quot;failed&quot;: [
+        
+    ]
+}
+</system-out>
+  </testcase>
+</testsuite>
